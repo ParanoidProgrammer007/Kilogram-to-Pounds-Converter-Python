@@ -1,0 +1,8 @@
+W = input("What is your weight? ")
+U = input("Kg or Lbs? ")
+if U == ("Kg") :
+    Result_1 = float(2.20462) * float(W)
+    print("Your weight in Lbs is: " + str(Result_1))
+if U == ("Lbs") :
+    Result_2 = float(W) / float(2.20462)
+    print("Your weight in Kg is: " + str(Result_2))
